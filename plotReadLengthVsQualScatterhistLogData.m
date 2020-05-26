@@ -20,7 +20,7 @@ function plotReadLengthVsQualScatterhistLogData
 %the working directory.
 
 %%
-%Supblot 1.
+%Subplot 1.
 data1=readmatrix('NanoPlot-data_barcode07.txt'); %load data.
 Lengths=log(data1(:,2));
 Qualities=data1(:,1);
@@ -39,7 +39,7 @@ xlim([4 11]);
 ylim([2 20]);
 clear data1;
 
-%Supblot 2.
+%Subplot 2.
 data2=readmatrix('NanoPlot-data_barcode08.txt'); %load data.
 Lengths=log(data2(:,2));
 Qualities=data2(:,1);
@@ -57,7 +57,7 @@ xlim([4 11]);
 ylim([2 20]);
 clear data2;
 
-%Supblot 3.
+%Subplot 3.
 data3=readmatrix('NanoPlot-data_barcode09.txt'); %load data.
 Lengths=log(data3(:,2));
 Qualities=data3(:,1);
@@ -75,7 +75,7 @@ xlim([4 11]);
 ylim([2 20]);
 clear data3;
 
-%Supblot 4.
+%Subplot 4.
 data4=readmatrix('NanoPlot-data_barcode10.txt'); %load data.
 Lengths=log(data4(:,2));
 Qualities=data4(:,1);
@@ -93,7 +93,7 @@ xlim([4 11]);
 ylim([2 20]);
 clear data4;
 
-%Supblot 5.
+%Subplot 5.
 data5=readmatrix('NanoPlot-data_barcode11.txt'); %load data.
 Lengths=log(data5(:,2));
 Qualities=data5(:,1);
@@ -111,7 +111,7 @@ xlim([4 11]);
 ylim([2 20]);
 clear data5;
 
-%Supblot 6.
+%Subplot 6.
 data6=readmatrix('NanoPlot-data_barcode12.txt'); %load data.
 Lengths=log(data6(:,2));
 Qualities=data6(:,1);
